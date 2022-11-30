@@ -1,0 +1,12 @@
+Two axes of research:
+
+- what does the paper do: assess parallel trends analytically - we check the regressions and do plotting
+	- For table 2 strat 1, we can do scatterplots with pop & contin var + coloring by ms status
+	- For table 2 strat 2, we can simply shows robust means/ dist plots for contin vars based bivar stratif
+	- Table 3 just run regress robustly
+
+- What is DiD: Difference of means - we ask, if differences are distributed normally or not and hat role does it play 
+
+
+did essentially takes diff of means -  so check if results are driven 
+by outliers in distribution of differences (of outcome var)

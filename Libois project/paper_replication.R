@@ -2,6 +2,7 @@ library(tidyverse)
 library(haven)
 library(reshape2)
 library(gridExtra)
+library(robustbase)
 
 table2 <- read_dta("data/yearly-obs.dta")
 
@@ -45,4 +46,4 @@ p_final_1 <- grid.arrange(grobs= list(p1,p2,p3,p4,p5,p6), nrow = 3, ncol = 2,
 #ggsave("graphs/scatterplots_mass-shootings.png", p_final_1, 
 #       width = 27, height= 48, units="cm")
 
-
+adjbox()

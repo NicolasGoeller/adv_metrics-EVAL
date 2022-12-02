@@ -5,6 +5,9 @@
 *.jpeg
 *.zip
 
+*.csv
+*.txt
+
 # .gitignore file for git projects containing Stata files
 # Commercial statistical software: http://www.stata.com
 

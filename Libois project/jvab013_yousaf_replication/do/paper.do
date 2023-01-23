@@ -15,7 +15,7 @@ set more off
 set matsize 11000
 
 * Define the main directory
-global main="C:\Users\z3526522\Dropbox\03 - Mass Shootings\MS\Replication"
+global main="C:\Users\Nicolas\OneDrive - Zeppelin-University gGmbH\Dokumente\Studium\Advanced Micrometrics\adv_metrics-EVAL\Libois project\jvab013_yousaf_replication"
 
 * Define data directory
 global data="$main\data"
